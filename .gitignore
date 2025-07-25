@@ -1,0 +1,124 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# DEPENDENCIES
+# ============
+# Node modules
+node_modules/
+
+# Package managers
+# npm
+.npm
+*.tgz
+npm-debug.log*
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn-integrity
+.pnp.*
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm
+.pnpm-debug.log*
+
+# RUNTIME & BUILDS
+# ===============
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Build outputs
+build/
+dist/
+build/Release
+
+# DEVELOPMENT
+# ==========
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+playwright-report/
+
+# Linting & Formatting
+.eslintcache
+.stylelintcache
+.swc
+
+# Caching
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.temp/
+.docusaurus/
+
+# ENVIRONMENT
+# ==========
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# LOGS
+# ====
+logs/
+*.log
+lerna-debug.log*
+.output.txt
+
+# TOOLING
+# =======
+# IDE & Editors
+.idea/
+.vscode/
+.vscode-test/
+.junie/
+.tern-port
+
+# OS specific
+.DS_Store
+*.pem
+
+# DEPLOYMENT
+# =========
+# Serverless
+.serverless/
+.vercel/
+
+# MISC
+# ====
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Node.js specific
+.grunt/
+bower_components/
+.lock-wscript
+jspm_packages/
+web_modules/
+.node_repl_history
+.dynamodb/
+.fusebox/
+
+# Project specific
+docs/

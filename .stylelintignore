@@ -1,0 +1,11 @@
+# .stylelintignore
+
+# Next.js build output
+.next/
+out
+
+# Node modules
+node_modules/
+
+# Coverage reports
+coverage/
